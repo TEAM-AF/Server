@@ -1,9 +1,9 @@
 const success = (statusCode, body) => ({
-    statusCode,
-    headers: {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Credentials": true,
-    },
+    // statusCode,
+    // headers: {
+    //     "Access-Control-Allow-Origin": "*",
+    //     "Access-Control-Allow-Credentials": true,
+    // },
     body,
 });
 
